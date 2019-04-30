@@ -21,7 +21,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">Helphy</a>
+      <a class="navbar-brand" href="./index.html">Helphy</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -36,32 +36,20 @@
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
+          <li class="nav-item">
+            <a class="nav-link" href="./src/pages/get_help.html">Get Help</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Get Help</a>
+            <a class="nav-link" href="./src/pages/forum.html">Forum</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Forum</a>
+            <a class="nav-link" href="./src/pages/protest.html">Protest</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Protest</a>
+            <a class="nav-link" href="./src/pages/faq.html">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+            <a class="nav-link" href="./src/pages/contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -79,7 +67,10 @@
                   Support and advise for people without health insurance…
                 </p>
                 <p>
-                  <a class="btn btn-primary btn-lg" href="#" role="button"
+                  <a
+                    class="btn btn-dark btn-lg"
+                    href="#learn-more"
+                    role="button"
                     >Learn more &raquo;</a
                   >
                 </p>
@@ -92,7 +83,31 @@
       <div class="container" id="learn-more">
         <!-- Example row of columns -->
         <div class="row section">
-          <div class="col-md-6 info-text">
+          <div class="col-md-4 info-text">
+            <h2>
+              More people need help with Health Insurance than you may think..
+            </h2>
+            <br />
+            <p>
+              In 2015, around 80,000 people in Germany had no health insurance
+              cover, which corresponds to 0.1% of the population. This is shown
+              by the results of the supplementary program "Information on health
+              insurance", by the largest annual household survey in Germany.
+            </p>
+            <p>
+              The experts say that the real number is likely 10 times higher.
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary"
+                href="./src/pages/faq.html"
+                role="button"
+                >Check our FAQ &raquo;</a
+              >
+            </p>
+          </div>
+
+          <div class="col-md-4 info-text">
             <h2>Get help with your Health Insurance</h2>
             <p>
               We support and advise undocumented migrants, EU citizens, German
@@ -102,32 +117,38 @@
               if a consultation in your language is possible.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#" role="button"
+              <a
+                class="btn btn-secondary"
+                href="./src/pages/get_help.html"
+                role="button"
                 >Learn more about Insurance &raquo;</a
               >
             </p>
           </div>
-          <div class="col-md-6 info-text">
+          <div class="col-md-4 info-text">
             <h2>Need urgent medical help?</h2>
             <p>
               We can suggest you few options to get urgent medical help without
               Insurance.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#" role="button"
+              <a
+                class="btn btn-secondary"
+                href="./src/pages/get_help.html"
+                role="button"
                 >Get info now! &raquo;</a
               >
             </p>
           </div>
-        </div>
 
-        <hr />
+          <hr />
+        </div>
       </div>
       <!-- /container -->
     </main>
 
     <footer class="container">
-      <p>&copy; Company 2017-2019</p>
+      <p>&copy; Helphy 2019</p>
     </footer>
     <script src="./index.js"></script>
     <script

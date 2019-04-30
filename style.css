@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
 .jumbotron {
   padding: 0 !important;
 }
@@ -24,6 +31,12 @@
   height: 100vh;
 }
 
+#learn-more {
+  min-height: min-content;
+  overflow: scroll;
+  padding: 2em 1em;
+}
+
 .display-3 {
   padding-top: 2em;
 }
@@ -37,8 +50,7 @@
   padding-top: 4em;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
+.footer {
+  position: fixed;
+  bottom: 0;
 }
