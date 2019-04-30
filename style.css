@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
 .jumbotron {
   padding: 0 !important;
 }
@@ -7,7 +14,7 @@
 }
 
 .parallax {
-  background-image: url(/images/barbara-sampaio-236871-unsplash.jpg);
+  background-image: url(/src/img/background.jpg);
   min-height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -24,6 +31,12 @@
   height: 100vh;
 }
 
+#learn-more {
+  min-height: min-content;
+  overflow: scroll;
+  padding: 2em 1em;
+}
+
 .display-3 {
   padding-top: 2em;
 }
@@ -32,12 +45,12 @@
   margin: 0 auto;
   text-align: center;
   padding: 0 1rem;
+}
 .info-text {
   padding-top: 4em;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
+.footer {
+  position: fixed;
+  bottom: 0;
 }
