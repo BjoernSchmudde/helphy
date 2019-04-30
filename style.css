@@ -8,15 +8,47 @@
 }
 
 .display-3 {
-  margin-top: 2em;
+  padding-top: 2em;
 }
 
+.jumbotron {
+  padding: 0 !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
 .splash {
   height: 100vh;
+}
+
+.title-text {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1rem;
 }
 
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+
+.parallax-cover {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100vh;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(/images/barbara-sampaio-236871-unsplash.jpg);
+
+  /* Set a specific height */
+  min-height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
